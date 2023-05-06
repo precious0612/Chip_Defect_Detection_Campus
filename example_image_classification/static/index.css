@@ -1,0 +1,271 @@
+.body-div {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+body {
+    background-color: #f8fafc;
+    margin: 0;
+}
+
+.nav-div {
+    width: 100%;
+    height: 60px;
+    background-color: #2F89DD;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-div {
+    width: 130px;
+    height: 40px;
+    margin-left: 15%;
+    margin-top: 9px;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+
+.title-div {
+    width: 300px;
+    height: 20px;
+    margin-left: 2%;
+    font-size: 20px;
+    font-family: "SimHei";
+    color: #EBEEF5;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.split-line-div {
+    display: inline-block;
+    height: 1px;
+    width: 100%;
+    background: #EBEEF5;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.context-div{
+    width: 70%;
+    height: 650px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#buttom-div{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    display: none;
+}
+
+.digit-div {
+    height: 600px;
+    width: 40%;
+    align-items: baseline;
+    border: 1px solid #EBEEF5;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px #F3F3F3, 5px -5px 5px #F3F3F3, -5px 5px 5px #F3F3F3, -5px -5px 5px #F3F3F3;
+    margin-top: 50px;
+}
+
+.button-div {
+    width: 100px;
+    height: 20%;
+    margin-top: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+.result-div {
+    height: 600px;
+    width: 40%;
+    border: 1px solid #EBEEF5;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px #F3F3F3, 5px -5px 5px #F3F3F3, -5px 5px 5px #F3F3F3, -5px -5px 5px #F3F3F3;
+    margin-top: 50px;
+}
+
+.div-right {
+    float: left;
+    height: 600px;
+    width: 48%;
+}
+
+.clearfix {
+    width: 100%;
+    height: 3%;
+}
+
+.text-div {
+    width: 50%;
+    height: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.num-div {
+    width: 100%;
+    height: 90%;
+}
+
+#result-table-div {
+    width: 90%;
+    height: 100%;
+    margin-left: 0px;
+    text-align: center;
+    border: 1px solid #EBEEF5;
+}
+
+/*
+表格样式
+*/
+
+table {
+    border: 1px solid #EBEEF5;
+    width: 100%;
+}
+
+#result-num-div {
+    width: 90%;
+    height: 100%;
+    margin-left: 20px;
+    font-size: 50px;
+    border: 1px solid #EBEEF5;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.result-content-div {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-left {
+    width: 49%;
+    height: 100%;
+}
+
+.result-right {
+    width: 49%;
+    height: 100%;
+}
+
+#result-num1-div {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    text-align: center;
+    line-height: 100%;
+    font-size: 200px;
+}
+
+#result-num2-div {
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    line-height: 100%;
+    font-size: 200px;
+    border: 1px solid #EBEEF5;
+    right: 0;
+    bottom: 0;
+    background-color: #F3F3F3;
+}
+
+.title-text {
+    width: 95%;
+    height: 6%;
+    line-height: 32px;
+    margin-left: 20px;
+    display: flex;
+    justify-content:space-between;
+    display: none;
+    position: relative;
+}
+
+.upload-div{
+    height: 100%;
+    right: 5%;
+    position: absolute;
+}
+
+.title-text-right {
+    width: 100%;
+    height: 32;
+    line-height: 32px;
+    margin-left: 0px;
+}
+
+.title-text-left {
+    width: 100%;
+    height: 32;
+    line-height: 32px;
+    margin-left: 20px;
+}
+
+#container {
+    text-align: center;
+    width: 100%;
+    height: 85%;
+    justify-content: center;
+}
+
+#uploadimg {
+    display: none;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#uploadimg-div{
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 4px;
+    background-color:#F5F5F5;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+#top-img-div{
+    width: 100%;
+    height: 100%;
+    background-color:#F5F5F5;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon-div{
+    width: 60px;
+    height: 60px;
+    opacity: 0.6;
+    background-image: url("uploadimg.png");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    cursor: pointer;
+}
+
+.center-div {
+    width: 50px;
+    height: 100px;
+    float: left;
+    margin-top: 250px;
+}
